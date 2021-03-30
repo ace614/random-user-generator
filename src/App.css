@@ -1,0 +1,69 @@
+body {
+  font: Arial;
+  margin: 0;
+  padding: 0;
+}
+
+.title {
+  margin: 10px 0;
+  font-size: 35px;
+  text-align: center;
+}
+
+.user-title {
+  font-weight: bold;
+  border-bottom: 3px solid black;
+  border-width: 100%;
+}
+
+.gender {
+  color: black;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+.location {
+  border-top: 3px solid black;
+}
+
+.email {
+  font-weight: 600;
+}
+
+#info {
+  margin-right: 30px;
+  width: auto;
+}
+
+.column {
+  margin: 10px;
+  float: left;
+}
+
+#profile-img {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  border: 2px solid black;
+  float: right;
+}
+
+.profile {
+  position: absolute;
+  top: 30%;
+  border: 3px solid black;
+  width: 90%;
+  margin: 2%;
+}
+
+.profile::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+@media only screen and (min-width: 900px) {
+  #info div {
+    font-size: 25px;
+  }
+}
